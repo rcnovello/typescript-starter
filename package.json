@@ -1,8 +1,8 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "api-app-tools",
   "private": true,
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "Tools App",
   "license": "MIT",
   "scripts": {
     "build": "nest build",
@@ -24,8 +24,12 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.0.17",
+    "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/mapped-types": "^2.1.0",
     "@nestjs/platform-express": "^11.0.1",
+    "@nestjs/typeorm": "^11.0.0",
+    "oracledb": "^6.9.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
